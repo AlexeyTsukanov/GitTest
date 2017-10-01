@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 
 public class Main {
 
@@ -21,3 +21,4 @@ public class Main {
         Phone.receiveCall(1234);
     }
 }
+*/
