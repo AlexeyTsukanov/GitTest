@@ -25,6 +25,10 @@ public class PhoneDemo {
         System.out.println(phone1.getPhoneNumber());
         System.out.println(newNumber);*/
         Phone phone4 = new Phone(986789374, "Lenovo", 134.6);
+
         phone4.print();
+
+        phone1.receiveCall("Petya");
+        phone1.receiveCall("Vasya", "0954783917");
     }
 }
