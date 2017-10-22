@@ -7,7 +7,9 @@ public class FavoriteTime {
 
         TimesOfYear[] timesOfYears = TimesOfYear.values();
         for (TimesOfYear timesOfYear : timesOfYears){
-            System.out.println(timesOfYear);
+            System.out.print(timesOfYear);
+            System.out.println(" средняя температура " + timesOfYear.getTemperature());
+            timesOfYear.getDescription();
         }
 
         TimesOfYear timesOfYear1 = TimesOfYear.valueOf("WINTER");
