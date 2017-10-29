@@ -14,5 +14,9 @@ public class AspirantTest {
         for (Student student1 : students){
             System.out.println(student1.getScholarship());
         }
+
+        for (Student student1 : students){
+            System.out.println(student1);
+        }
     }
 }

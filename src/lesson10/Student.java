@@ -39,4 +39,9 @@ public class Student {
     public String getGroup() {
         return group;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Student firstName=%1$s, lastName=%2$s, group=%3$s", firstName,lastName,group);
+    }
 }
